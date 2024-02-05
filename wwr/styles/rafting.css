@@ -1,11 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=opensans&display`=swap');
 
 :root{
     --primary-color: #CCD5AE;
     --secondary-color: #E9EDC9;
-    --text-color: #333;
+    --accent1-color: #FEFAE0;
+    --accent2-color: #D4A373;
 
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'open sans' serif;
+
+    --nav-background-color: #CCD5AE;
+    --nav-link-color: #E9EDC9;
+    --nav-hover-link-color: #FEFAE0;
+    --nav-hover-background-color: #D4A373;
 }
+
 
 h1,h2,h3,h4,h5,h6{
     color: var(--primary-color);
