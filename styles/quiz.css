@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=opensans&display`=swap");
+
+
+:root{
+    --primary-color: steelblue;
+
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--primary-color);
+}
+
+h2{
+    padding: .5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"]{
+    margin-left: 20px;
+}
+
+label[for="q3"]{
+    margin-left: 20px;
+}
+
+button{
+    margin: 50px;
+    display: inline;
+    background-color: steelblue;
+    padding: 30px;
+    width: 300px;
+    color: #ffff;
+    text-align: center;
+}
+
