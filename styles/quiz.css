@@ -22,13 +22,32 @@ label{
     margin-bottom: 10px;
 }
 
-input[type="radio"]{
-    margin-left: 20px;
+
+
+input[type="text" ]{
+    width: 500px;
+    height: 100px;
+    margin-left: 10px;
 }
 
-label[for="q3"]{
-    margin-left: 20px;
+textarea{
+    width: 500px;
+    margin-right: 10px;
+    height: 100px;
 }
+
+option{
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+}
+
+input[type="numbers"]{
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+}
+
 
 button{
     margin: 50px;
