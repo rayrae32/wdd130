@@ -38,6 +38,11 @@ body{
     position: relative;
 }
 
+div img{
+    width: 500px;
+    position: relative;
+}
+
 .hero img{
     display: block;
     width: 100%;
