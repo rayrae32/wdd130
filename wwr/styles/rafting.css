@@ -20,6 +20,78 @@ h1,h2,h3,h4,h5,h6{
     color: var(--primary-color);
 }
 
+body, h1, h2, p, form, img{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 20px;
+    color: white;
+    background-color: #CCD5AE;
+    text-align: center;
+}
+
+main{
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.full-width-image img{
+    width: 100%;
+}
+
+.newsletter-form{
+    text-align: center;
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, button{
+    margin: 10px 0;
+}
+
+
+button{
+    background-color: #CCD5AE;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: #E9EDC9;
+}
+
+.call-to-action{
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid-item img{
+    width: 300px;
+    display: left;
+    margin-left: auto;
+    position: relative;
+    text-align: center;
+
+}
+
 p{
     color: var(--text-color);
 }
@@ -48,7 +120,7 @@ div img{
     width: 100%;
     height: auto;
 }
-
+ 
 
 .hero h1{
     padding: 20px 0;
@@ -76,6 +148,36 @@ div img{
     width: 150px;
     margin-left: 20px;
 
+}
+
+.trip_description {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td{
+    border: 1px solid #ddd;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+    background-color: #f0f0f0;
+}
+
+
+@media (max-width: 300px){
+    table, th, td{
+        padding: 5px;
+    }
 }
 
 
